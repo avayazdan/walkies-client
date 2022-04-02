@@ -1,37 +1,37 @@
 .hero-image {
-    height: 300px;
-    width: auto;
+  height: 300px;
+  width: auto;
 }
 
 .content {
-    width: 70%;
-    margin: auto;
-    align-items: center;
+  width: 70%;
+  margin: auto;
+  align-items: center;
 }
 
 input {
-	position: relative;
-	display: block;
-	color: #FFF;
-	margin: 0 auto;
-    background: #168AAD;
-	font-size: 18px;
-	text-align: center;
-	font-style: normal;
-	width: 50%;
-    border: 1px solid #1A759F;
-	border-width: 1px 1px 3px;
-	margin-bottom: 10px;
+  position: relative;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  background: #168aad;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 50%;
+  border: 1px solid #1a759f;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
 }
 
 input:active {
-    background-color: #B5E48C;
-    outline: 0;
-  }
+  background-color: #b5e48c;
+  outline: 0;
+}
 
 @media only screen and (max-width: 550px) {
-    input {
-      padding: 0;
-      font-size: 12px;
-    }
+  input {
+    padding: 0;
+    font-size: 12px;
   }
+}

@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 
 /* HEADER */
 
-.float-left a, .float-right a {
+.float-left a,
+.float-right a {
   text-align: center;
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -14,13 +15,13 @@ main {
   display: flex;
   text-align: center;
   flex-direction: column;
-  background: #99D98C;
+  background: #99d98c;
   padding: 50px;
 }
 
 .nav-bar {
   display: flex;
-  background-color: #1A759F;
+  background-color: #1a759f;
 }
 
 ul {
@@ -62,7 +63,7 @@ a {
   display: flex;
   justify-content: flex-end;
 }
-.float-right:last-child{
+.float-right:last-child {
   padding-right: 15px;
 }
 
@@ -71,13 +72,13 @@ a {
 .footer {
   text-align: center;
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 .footer {
-  background-color: #1A759F;
+  background-color: #1a759f;
   background-blend-mode: soft-light;
 }
 
@@ -97,19 +98,19 @@ p.footer {
 .rounded-corners-bottom-curve {
   height: 40px;
   width: 100%;
-  background-color: #99D98C;
+  background-color: #99d98c;
   border-radius: 0% 0% 200% 200%;
 }
 
 .rounded-corners-top {
   height: 40px;
   width: 100%;
-  background-color: #1A759F;
+  background-color: #1a759f;
 }
 
 .rounded-corners-top-curve {
   height: 40px;
   width: 100%;
-  background-color: #99D98C;
+  background-color: #99d98c;
   border-radius: 200% 200% 0% 0%;
 }

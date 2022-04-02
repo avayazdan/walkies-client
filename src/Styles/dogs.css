@@ -31,17 +31,17 @@
 
 button {
   position: relative;
-	display: block;
-	color: #FFF;
-	margin: 0 auto;
-	background: #168AAD;
-	font-size: 18px;
-	text-align: center;
-	font-style: normal;
-	width: 100%;
-	border: 1px solid #1A759F;
-	border-width: 1px 1px 3px;
-	margin-bottom: 10px;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  background: #168aad;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #1a759f;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
 }
 
 h1 {

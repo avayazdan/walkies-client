@@ -1,54 +1,51 @@
-import { useState } from "react"
-import axios from "axios"
-import '../Styles/Forms.css'
+import { useState } from "react";
+import axios from "axios";
+import "../Styles/Forms.css";
 
 const CreateDog = () => {
   const [formData, setFormData] = useState({
     image: "",
     comments: {
-        text: "",
-        createdBy: "",
-        sentAt: ""
-    }
-  })
-  const [errorMessage, setErrorMessage] = useState(null)
+      text: "",
+      createdBy: "",
+      sentAt: "",
+    },
+  });
+  const [errorMessage, setErrorMessage] = useState(null);
 
   const onChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value })
-  }
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const onSubmit = async (e) => {
-      console.log(formData)
+    console.log(formData);
 
-    e.preventDefault()
+    e.preventDefault();
     try {
+      axios({
+        method: "post",
+        url: "https://walkies-backend.herokuapp.com/dogs",
+        headers: {
+          Authorization: `Bearer ${localStorage.getItem("token")}`,
+        },
+        body: formData,
+      }).then((response) => {
+        // Console logging the data
+        console.log(response.data);
+      });
 
-        axios({
-            method: 'post',
-            url: 'https://walkies-backend.herokuapp.com/dogs',
-            headers: {
-              Authorization: `Bearer ${localStorage.getItem("token")}`,
-            },
-            body: formData
-          })
-          .then(response => {
-            // Console logging the data
-            console.log(response.data);
-          })
-
-
-    //   const res = await axios.post("https://walkies-backend.herokuapp.com/dogs", formData, config)
-    //   console.log(res)
+      //   const res = await axios.post("https://walkies-backend.herokuapp.com/dogs", formData, config)
+      //   console.log(res)
     } catch (e) {
-      setErrorMessage(e.response.data.message)
+      setErrorMessage(e.response.data.message);
     }
-  }
+  };
 
   return (
     <div className="create-dog-section">
       <h1>Add a pet 🐶🐾</h1>
       {errorMessage && <div className="failure">{errorMessage}</div>}
-      <form className = "form" onSubmit={onSubmit}>
+      <form className="form" onSubmit={onSubmit}>
         <input
           type="text"
           placeholder="Enter your dog's name"
@@ -85,11 +82,13 @@ const CreateDog = () => {
           name="description"
           onChange={onChange}
         />
-        
-        <button className="button" type="submit">Add dog</button>
+
+        <button className="button" type="submit">
+          Add dog
+        </button>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default CreateDog
+export default CreateDog;

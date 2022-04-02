@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Nav from './components/Nav';
-import Home from './components/Home.js'
-import Login from './components/Login.js'
-import Register from './components/Register.js'
-import Dogs from './components/Dogs.js'
-import Doggo from './components/Doggo.js'
-import Messages from './components/Messages.js'
-import CreateDog from './components/createDog';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Nav from "./components/Nav";
+import Home from "./components/Home.js";
+import Login from "./components/Login.js";
+import Register from "./components/Register.js";
+import Dogs from "./components/Dogs.js";
+import Doggo from "./components/Doggo.js";
+import Messages from "./components/Messages.js";
+import CreateDog from "./components/createDog";
 
 function App() {
-
   return (
     <div>
       <Router>

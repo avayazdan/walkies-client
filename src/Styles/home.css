@@ -1,22 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Rampart+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Averia+Sans+Libre:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Averia+Sans+Libre:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 
 /* TEXTS */
 
 h1 {
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 100px;
   margin-block-start: 0;
   margin-block-end: 0;
 }
 
-h2, h4, h3 {
-  font-family: 'Averia Sans Libre', cursive;
+h2,
+h4,
+h3 {
+  font-family: "Averia Sans Libre", cursive;
 }
 
 p {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .about-us-container > p {
@@ -26,7 +28,7 @@ p {
 
 a {
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* HEADING */
@@ -52,7 +54,8 @@ a {
 }
 
 .hero-image {
-  height: 400px; width: 500px;
+  height: 400px;
+  width: 500px;
 }
 
 .stories {
@@ -83,7 +86,7 @@ input {
   color: #111;
   cursor: pointer;
   display: flex;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -109,7 +112,7 @@ input:after {
   position: absolute;
   top: -2px;
   transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   z-index: -1;
 }
 
@@ -133,31 +136,31 @@ input:hover {
 }
 
 button {
-	position: relative;
-	display: block;
-	color: #FFF;
-	margin: 0 auto;
-    background: #168AAD;
-	font-size: 18px;
-	text-align: center;
-	font-style: normal;
-	width: 50%;
-    border: 1px solid #1A759F;
-	border-width: 1px 1px 3px;
-	margin-bottom: 10px;
+  position: relative;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  background: #168aad;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 50%;
+  border: 1px solid #1a759f;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
 }
 
 button {
-  background: #168AAD;
-  border: 1px solid #1A759F;
-  color: #FFF;
+  background: #168aad;
+  border: 1px solid #1a759f;
+  color: #fff;
   align-items: center;
   border-radius: 8px;
   box-sizing: border-box;
   color: #111;
   cursor: pointer;
   display: flex;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -183,7 +186,7 @@ button:after {
   position: absolute;
   top: -2px;
   transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   z-index: -1;
 }
 
@@ -192,7 +195,7 @@ button:hover:after {
 }
 
 button:active {
-  background-color: #B5E48C;
+  background-color: #b5e48c;
   outline: 0;
 }
 
@@ -213,11 +216,11 @@ button:hover {
   align-items: center;
   min-height: 260px;
   padding-top: 100px;
-  background: #99D98C;
+  background: #99d98c;
 }
 
 .section-title {
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 36px;
   padding: 20px;
 }

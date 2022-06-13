@@ -1,4 +1,4 @@
-## Walkies - Group Project
+**## Walkies - Group Project
 
 Deployed at: https://walkiessei22.netlify.app/
 
@@ -126,6 +126,11 @@ We had a few challanges - such as connecting to MongoDB, deploying our backend w
 
 A Favorites page would be a great addition to our project (adding a dog or a borrower to your favorites, storing them for later). Another improvement would be implementing a chat messenger where users can interact with eachother in real time, or to get an inbox functionality between owners and borrowers. 
 
+#### Key learnings / Main takeaways
+
+The key learnings and takeaways for this project was learning how to deal with forms, registering users, logging them in and sending their information to the data/api. This was the first project that handled this sort of functionality so it was amazing learning how to achieve that and understanding that there are many different ways to handle forms and user information. 
+
 
   
 
+**
